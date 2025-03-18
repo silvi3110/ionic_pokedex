@@ -35,3 +35,19 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
+
+/* Habilitar el tema oscuro */
+:root {
+    --ion-background-color: #121212;  /* Fondo negro */
+    --ion-text-color: #ffffff;        /* Texto blanco */
+  }
+  
+  /* Para asegurar que los elementos de la UI también se adapten */
+  ion-content {
+    --background: var(--ion-background-color);
+  }
+  
+  ion-label {
+    color: var(--ion-text-color);
+  }
+  

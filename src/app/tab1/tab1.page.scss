@@ -1,0 +1,14 @@
+/* Estilos solo para Tab 1 */
+:host {
+    --ion-background-color: #121212;
+    --ion-text-color: #ffffff;
+  }
+  
+  ion-content {
+    --background: var(--ion-background-color);
+  }
+  
+  ion-label {
+    color: var(--ion-text-color);
+  }
+  
